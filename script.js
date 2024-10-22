@@ -64,7 +64,7 @@ inputField.addEventListener('input', () => {
 // Exercise 9: Toggling Visibility
 // TODO: Add a click event listener to the button that toggles the visibility of the content div
 
-const Button = document.querySelector('button');
+const button = document.querySelector('button');
 const contentDiv = document.querySelector('#content');
 
 button.addEventListener('click', () => {
